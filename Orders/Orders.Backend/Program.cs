@@ -10,7 +10,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("LocalConnection")));
+var connectionString = builder.Configuration.GetConnectionString("MySqlConnection"); // Usa el nuevo nombre
+
+// Especifica la versión de tu servidor MySQL.
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
+);
 
 var app = builder.Build();
 
@@ -22,6 +27,14 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Habilitar CORS primero, antes de UseAuthorization y MapControllers
+app.UseCors(x => x
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .SetIsOriginAllowed(origin => true) // Permite cualquier origen (para desarrollo)
+                                        // En producción, deberías restringir esto a los dominios de tu frontend.
+    .AllowCredentials());
 
 app.UseAuthorization();
 
