@@ -1658,11 +1658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Tests\\Orders.Tests.csproj",
+      "projectUniqueName": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Tests\\Orders.Tests.csproj",
       "projectName": "Orders.Tests",
-      "projectPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Tests\\Orders.Tests.csproj",
+      "projectPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Tests\\Orders.Tests.csproj",
       "packagesPath": "C:\\Users\\Rico\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Tests\\obj\\",
+      "outputPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CfFtB8+TMvw=",
+  "dgSpecHash": "x8FZ2oVmVYE=",
   "success": true,
-  "projectFilePath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Tests\\Orders.Tests.csproj",
+  "projectFilePath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Tests\\Orders.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rico\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\Rico\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",

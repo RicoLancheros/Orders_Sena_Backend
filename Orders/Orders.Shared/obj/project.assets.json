@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Shared\\Orders.Shared.csproj",
+      "projectUniqueName": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Shared\\Orders.Shared.csproj",
       "projectName": "Orders.Shared",
-      "projectPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Shared\\Orders.Shared.csproj",
+      "projectPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Shared\\Orders.Shared.csproj",
       "packagesPath": "C:\\Users\\Rico\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Shared\\obj\\",
+      "outputPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

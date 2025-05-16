@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Frontend\\Orders.Frontend.csproj": {}
+    "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Frontend\\Orders.Frontend.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Frontend\\Orders.Frontend.csproj": {
+    "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Frontend\\Orders.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Frontend\\Orders.Frontend.csproj",
+        "projectUniqueName": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Frontend\\Orders.Frontend.csproj",
         "projectName": "Orders.Frontend",
-        "projectPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Frontend\\Orders.Frontend.csproj",
+        "projectPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Frontend\\Orders.Frontend.csproj",
         "packagesPath": "C:\\Users\\Rico\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Frontend\\obj\\",
+        "outputPath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

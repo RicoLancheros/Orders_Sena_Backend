@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HmMkhJbbDFM=",
+  "dgSpecHash": "QMAh4OyXfZk=",
   "success": true,
-  "projectFilePath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders_Sena_Backend\\Orders\\Orders.Frontend\\Orders.Frontend.csproj",
+  "projectFilePath": "D:\\Users\\Rico\\Desktop\\SENA\\Trimestre4\\Jojhan Back\\Orders\\Orders.Frontend\\Orders.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rico\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.15\\microsoft.aspnetcore.authorization.8.0.15.nupkg.sha512",
     "C:\\Users\\Rico\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.15\\microsoft.aspnetcore.components.8.0.15.nupkg.sha512",
