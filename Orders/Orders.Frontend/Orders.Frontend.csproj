@@ -15,6 +15,10 @@
   <ItemGroup>
     <Folder Include="wwwroot\sample-data\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Orders.Shared\Orders.Shared.csproj" />
+  </ItemGroup>
 	
 
 </Project>
