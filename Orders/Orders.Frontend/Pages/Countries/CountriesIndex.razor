@@ -1,0 +1,56 @@
+﻿@page "/countries"
+@inject IRepository repository
+@using Orders.Shared.Entities // Necesario para Country
+
+<h3>Países</h3>
+
+<div class="mb-3">
+    <a class="btn btn-primary" href="/countries/create">Nuevo País</a>
+</div>
+
+<GenericList MyList="Countries">
+    <Body>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var country in Countries!)
+                {
+                    <tr>
+                        <td>
+                            @country.Name
+                        </td>
+                        <td>
+                            <a class="btn btn-warning btn-sm">Editar</a>
+                            <button class="btn btn-danger btn-sm">Borrar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </Body>
+</GenericList>
+
+@code {
+    public List<Country>? Countries { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var responseHttp = await repository.GetAsync<List<Country>>("api/countries");
+        if (!responseHttp.Error) // Verificar si no hubo error
+        {
+            Countries = responseHttp.Response!;
+        }
+        else
+        {
+            // Manejar el error, por ejemplo, mostrar un mensaje al usuario
+            var message = await responseHttp.GetErrorMessageAsync();
+            Console.WriteLine($"Error: {message}"); // O mostrar en UI
+            Countries = new List<Country>(); // Inicializar a lista vacía para evitar null ref en la UI
+        }
+    }
+}
